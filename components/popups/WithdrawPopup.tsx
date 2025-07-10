@@ -37,12 +37,12 @@ const WithdrawPopup: React.FC<WithdrawPopupProps> = ({ onClose, balance, minimum
   const [feeType, setFeeType] = useState('pyusd'); // 'pyusd' o 'trx'
   
   // Constantes
-  const MINIMUM_WITHDRAW = 140;
+  const MINIMUM_WITHDRAW = 150;
   const MINIMUM_REFERRAL = 10;
-  const MIN_DEPOSIT_USDT = 20;
+  const MIN_DEPOSIT_USDT = 25;
   const MIN_DEPOSIT_TRX = 100;
   const MAX_DEPOSIT_USDT = 100000;
-  const WALLET_ADDRESS = 'TL9KFxbCDhSJp16QpAEWCRGNgAWK167XzA';
+  const WALLET_ADDRESS = 'TUUbJUENz3DcMnrnonYP3xR8ugLR8dQBXM';
 
   // Función para obtener datos de referidos
   const fetchReferralData = useCallback(async () => {
